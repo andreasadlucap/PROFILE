@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:ital,wght@0,400;1,100;1,300&family=Roboto:wght@300;400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/564x/f8/b6/9e/f8b69e6156999b84137f3f0a23701b75.jpg);
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+}
+main .card{
+    background-color: rgba(198, 209, 102, 0.7);
+    width: 600px;
+    height: 500px;
+    position: relative;
+
+}
+
+img {
+border-radius: 80%;
+width: 150px;
+position: absolute;
+top: -25px;
+left: 50%;
+transform: translateX(-50%);
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+    font-size: 90%;
+}
+.info {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-top: 50px;
+}
